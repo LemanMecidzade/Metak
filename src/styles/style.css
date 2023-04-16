@@ -216,6 +216,20 @@ header .box nav .right i:hover{
 }
 #second-section .box .cards .card .text-box h1{
     font-size:1.4em;
+    position: relative;
+}
+#second-section .box .cards .card .text-box h1::after{
+    position: absolute;
+    content: "";
+    width:0;
+    height:1px;
+    left:0;
+    bottom:-10px;
+    background-color:var(--secondary-color);
+    transition: .3s ease-in-out;
+}
+#second-section .box .cards .card:hover.card .text-box h1::after{
+    width:100%;
 }
 #second-section .box .cards .card .text-box p{
     font-size:0.9em;
@@ -321,6 +335,10 @@ header .box nav .right i:hover{
     left:0;
     opacity:0.6;
     background-color:var(--secondary-color);
+    transition: .3s ease-in-out;
+}
+#fourth-section .box .cards .card:hover::after{
+    opacity:0.4;
 }
 #fourth-section .box .cards .card img{
     width:100%;
@@ -368,6 +386,8 @@ header .box nav .right i:hover{
     padding:6em;
     background-color: rgb(229, 255, 229);
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 #fifth-section > img{
     position: absolute;
