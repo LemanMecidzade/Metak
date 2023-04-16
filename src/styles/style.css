@@ -417,3 +417,164 @@ header .box nav .right i:hover{
 #fifth-section .box button:hover{
     background-image: linear-gradient(to left,var(--third-color),var(--gradient-color));
 }
+/*sixth section*/
+#sixth-section{
+    padding:6em;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+}
+#sixth-section .box{
+    width: 1150px;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    text-align: center;
+}
+#sixth-section .box h1{
+    font-size:2em;
+    color:var(--secondary-color);
+    font-weight: 500;
+}
+#sixth-section .box .cards{
+    display: flex;
+    justify-content: space-between;
+}
+#sixth-section .box .cards .card{
+    width:255px;
+    position: relative;
+}
+#sixth-section .box .cards .card img{
+    width:100%;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+}
+#sixth-section .box .cards .card div{
+    position: absolute;
+    color:white;
+    background-image: linear-gradient(to right,var(--third-color),var(--gradient-color));
+    padding:15px 10px;
+    border-radius: 5px;
+    top:10px;
+    right:10px;
+}
+#sixth-section .box .cards .card div span{
+    font-size:1.5em;
+}
+#sixth-section .box .cards .card h1{
+    font-size:1em;
+    line-height: 25px;
+    margin-top:20px;
+}
+#sixth-section .box .cards .card h1:hover{
+    color:var(--third-color);
+}
+#sixth-section .box button{
+    padding:20px;
+    width:190px;
+    color:white;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,var(--third-color),var(--gradient-color));
+    font-size:0.9em;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+#sixth-section .box button:hover{
+    background-image: linear-gradient(to left,var(--third-color),var(--gradient-color));
+}
+/*seventh section*/
+#seventh-section{
+    padding:6em;
+    display: flex;
+    justify-content: center;
+}
+#seventh-section .card-box{
+    width:1150px;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+#seventh-section .card-box .card{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+#seventh-section .card-box .card img{
+    width:349px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#seventh-section .card-box .card h1{
+    font-size:1.2em;
+    color:var(--secondary-color);
+}
+#seventh-section .card-box .card p{
+    color:var(--main-color);
+    width:340px;
+    line-height: 25px;
+}
+/*footer*/
+footer{
+    padding:6em 6em 2em;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+}
+footer .box{
+    width:1150px;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    color:white;
+}
+footer .box .top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(150, 150, 150);
+    padding-bottom: 40px;
+}
+footer .box .top .column{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+footer .box .top .column img{
+    width:125px;
+}
+footer .box .top .column h2{
+    width:300px;
+    line-height: 25px;
+    font-size: 0.9em;
+}
+footer .box .top .column h1{
+    text-transform: uppercase;
+}
+footer .box .top .column ul{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+footer .box .top .column ul li{
+    font-size:0.9em;
+    width:200px;
+    line-height:20px;
+    cursor:pointer;
+    transition: .2s ease-in-out;
+}
+footer .box .top .column ul li:hover{
+    color:var(--third-color);
+}
+footer .box .bottom{
+    display: flex;
+    justify-content: center;
+}
+footer .box .bottom h1{
+    font-weight: 500;
+}
